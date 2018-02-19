@@ -2,12 +2,14 @@
   "name": "redux-saga-shopping-cart-server",
   "version": "0.0.1",
   "description": "The backend Express server for shopping cart application.",
+  "main": "index.js",
   "scripts": {
-    "test": "jest",
-    "start": "babel-node server/server.js"
+    "start": "node server.js"
   },
-  "devDependencies": {
-    "babel-plugin-styled-components": "^1.4.0",
-    "lerna": "^2.1.2"
+  "dependencies": {
+    "chance": "^1.0.10",
+    "cors": "^2.8.3",
+    "express": "^4.15.3",
+    "yamljs": "^0.2.10"
   }
 }
