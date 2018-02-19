@@ -1,14 +1,14 @@
 # redux-saga-shopping-cart
 
-##About
+## About
 A fully functional shopping cart application. This app comes in two packages, the Node/Express backend API and the 
 front-end built with React and Redux Saga using ES6 Yields.
 
-##Packages
+## Packages
 - Server `./packages/server`
 - Client `./packages/client`
 
-##Development Setup
+## Development Setup
 1. Node version >= 9.0.0
 2. `npm install -g babel babel-cli lerna yarn`
 3. `yarn`
@@ -17,11 +17,11 @@ front-end built with React and Redux Saga using ES6 Yields.
 Notes: 
 1. After installing or uninstalling a NPM package, run `lerna bootstrsp` at the root of the project!
 
-##Usage
+## Usage
 1. In terminal, start the backend server via:  `yarn serve`
 2. Open another terminal and run the frontend application via: `yarn start`
 3. Navigate via browser: `http://localhost:8080`
 
-##Scripts
+## Scripts
 - `yarn start` - Starts the frontend and backend applications. 
 - `yarn test` - Runs all unit tests.
