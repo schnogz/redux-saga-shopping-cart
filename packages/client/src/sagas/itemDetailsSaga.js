@@ -3,7 +3,7 @@ import fetch from 'isomorphic-fetch'
 import { SET_CART_ITEMS, setItemDetails } from '../actions';
 
 export function* loadItemDetails(item) {
-  console.info('item', item);
+  console.info('ITEM:', item);
   // fetch item info
   const response = yield fetch(`http://localhost:8081/items/${item.id}`);
   const data = yield response.json();
