@@ -9,6 +9,7 @@
   "main": "index.js",
   "scripts": {
     "test": "cd packages/client && npm run test",
+    "serve": "cd packages/server && npm run start",
     "start": "cd packages/client && npm run start"
   },
   "devDependencies": {

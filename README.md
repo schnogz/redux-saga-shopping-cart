@@ -18,8 +18,9 @@ Notes:
 1. After installing or uninstalling a NPM package, run `lerna bootstrsp` at the root of the project!
 
 ##Usage
-1. `yarn start`
-2. Open `http://localhost:8080`
+1. In terminal, start the backend server via:  `yarn serve`
+2. Open another terminal and run the frontend application via: `yarn start`
+3. Navigate via browser: `http://localhost:8080`
 
 ##Scripts
 - `yarn start` - Starts the frontend and backend applications. 

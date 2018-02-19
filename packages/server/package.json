@@ -1,6 +1,7 @@
 {
   "name": "redux-saga-shopping-cart-server",
   "version": "0.0.1",
+  "license": "MIT",
   "description": "The backend Express server for shopping cart application.",
   "main": "index.js",
   "scripts": {
