@@ -16,6 +16,6 @@
     "lerna": "^2.8.0"
   },
   "dependencies": {
-    "redux-saga": "^0.16.0"
+    "redux-saga": "0.16.2"
   }
 }
